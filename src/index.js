@@ -1,12 +1,14 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+//import ReactDOM from 'react-dom';
+import { render } from 'react-snapshot';
+
 import {BrowserRouter} from "react-router-dom";
 
 import './index.css';
 import App from './App';
 
 
-ReactDOM.render(
+render(
   <React.StrictMode>
     <BrowserRouter>
       <App />
